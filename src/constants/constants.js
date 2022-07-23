@@ -7,6 +7,8 @@ import {
   DiWebplatform,
 } from "react-icons/di";
 
+import { SiAzuredevops, SiSolidity } from "react-icons/si";
+
 export const projects = [
   {
     title: "MERN Memories",
@@ -88,7 +90,7 @@ export const TechnologiesData = [
   {
     title: "Blockchain",
     technology: "Solidity",
-    icon: <DiWebplatform size="3rem" />,
+    icon: <SiSolidity size="3rem" />,
   },
   {
     title: "Agile / SCRUM",
@@ -98,6 +100,6 @@ export const TechnologiesData = [
   {
     title: "Azure DevOps",
     technology: "...",
-    icon: <DiWebplatform size="3rem" />,
+    icon: <SiAzuredevops size="3rem" />,
   },
 ];
