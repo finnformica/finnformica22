@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillMail, AiFillLinkedin } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
+import { GiAbstract065, GiCirclingFish } from "react-icons/gi";
 
 import {
   Container,
@@ -24,9 +24,11 @@ const Header = () => (
             color: "white",
           }}
         >
-          <DiCssdeck size="3rem" />
-          <Span style={{ paddingLeft: "4px", paddingRight: "4px" }}>
-            Portfolio
+          <GiAbstract065 size="3rem" />
+          <Span
+            style={{ marginLeft: "10px", marginRight: "30px", width: "160px" }}
+          >
+            Finn Formica
           </Span>
         </a>
       </Link>

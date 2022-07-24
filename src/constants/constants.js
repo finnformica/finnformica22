@@ -69,12 +69,12 @@ export const TimeLineData = [
 export const TechnologiesData = [
   {
     title: "Front-End",
-    technology: "React and Next.js",
+    technology: "React.js and Next.js",
     icon: <DiReact size="3rem" />,
   },
   {
     title: "Back-End",
-    technology: "Node and Databases",
+    technology: "Node.js and Databases",
     icon: <DiFirebase size="3rem" />,
   },
   {
@@ -93,13 +93,8 @@ export const TechnologiesData = [
     icon: <SiSolidity size="3rem" />,
   },
   {
-    title: "Agile / SCRUM",
-    technology: "...",
+    title: "Agile",
+    technology: "Scrum and Azure DevOps",
     icon: <DiScrum size="3rem" />,
-  },
-  {
-    title: "Azure DevOps",
-    technology: "...",
-    icon: <SiAzuredevops size="3rem" />,
   },
 ];

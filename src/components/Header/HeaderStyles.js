@@ -19,12 +19,12 @@ export const Container = styled.div`
 `;
 
 export const Span = styled.span`
-  font-size: 2rem;
+  font-size: 2.5rem;
 `;
 
 export const Div1 = styled.div`
   margin-right: 50px;
-  margin-left: 20px;
+  margin-left: 5px;
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
@@ -57,7 +57,7 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
-  padding: 0.5rem;
+  margin: 0.8rem;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   &:hover {
@@ -66,7 +66,7 @@ export const NavLink = styled.a`
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.5rem;
+    padding: 2.5rem;
   }
 `;
 

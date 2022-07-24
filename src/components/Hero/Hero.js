@@ -12,8 +12,7 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My Personal Portfolio
+        Welcome!
       </SectionTitle>
       <SectionText>
         I am a Mechanical and Electrical engineer graduate and completing a

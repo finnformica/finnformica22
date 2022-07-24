@@ -44,10 +44,14 @@ const Projects = () => (
                 ))}
               </TagList>
             </div>
-            <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={source}>Source</ExternalLinks>
-            </UtilityList>
+            <div style={{ margin: "2rem 0 4rem 0" }}>
+              <ExternalLinks target="_blank" href={visit}>
+                Code
+              </ExternalLinks>
+              <ExternalLinks target="_blank" href={source}>
+                Source
+              </ExternalLinks>
+            </div>
           </BlogCard>
         )
       )}
