@@ -7,7 +7,7 @@ import {
   DiWebplatform,
 } from "react-icons/di";
 
-import { SiAzuredevops, SiSolidity } from "react-icons/si";
+import { SiSolidity } from "react-icons/si";
 
 export const projects = [
   {
@@ -23,8 +23,8 @@ export const projects = [
   {
     title: "Asteroids with NEAT",
     description:
-      "This is a code repository for my first year engineering coursework. I recreated the arcade game Asteroids using pygame, and then implemented the NEAT algorithm to train Neural Networks to play it.",
-    image: "/images/4.jpg",
+      "This was completed for my first year engineering coursework. I recreated the arcade game Asteroids using pygame, and then implemented the NEAT algorithm to train Neural Networks to play it.",
+    image: "/images/asteroids-neat.png",
     tags: ["ML", "Python"],
     github: "https://github.com/finnformica/Asteroids-with-NEAT-python",
     id: 3,
