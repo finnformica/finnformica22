@@ -19,9 +19,9 @@ const Hero = (props) => (
         Financial Technology with Data Science MSc. I have a keen interest in
         Data Science, Web Development, and Artificial Intelligence.
       </SectionText>
-      <Button onClick={() => (window.location = "https://google.com")}>
+      {/* <Button onClick={() => (window.location = "https://google.com")}>
         Learn More
-      </Button>
+      </Button> */}
     </LeftSection>
   </Section>
 );
