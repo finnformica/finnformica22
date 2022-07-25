@@ -18,6 +18,15 @@ export const projects = [
     github: "https://github.com/finnformica/Asteroids-with-NEAT-python",
     id: 0,
   },
+  {
+    title: "Image to Matrix",
+    description:
+      "Using canvas-sketch-cli, the input image is turned into a bitmap of greyscale data which is used to apply an opacity filter to the falling matrix characters. This then leaves an imprint of the image left on the page. The output can be stored as an image or a video.",
+    image: "/images/matrix-effect.png",
+    tags: ["canvas-sketch-cli", "JavaScript"],
+    github: "https://github.com/finnformica/matrix-effect",
+    id: 1,
+  },
   // {
   //   title: "MERN Memories",
   //   description:
@@ -26,7 +35,7 @@ export const projects = [
   //   tags: ["Mongo", "Express", "React", "Node"],
   //   source: "https://first-next-app-pi.vercel.app/",
   //   github: "https://google.com",
-  //   id: 1,
+  //   id: 10,
   // },
 ];
 
@@ -35,9 +44,11 @@ export const TimeLineData = [
   { year: 2017, text: "Trained my first ML model using NEAT" },
   { year: 2019, text: "Achieved 3A's and A*" },
   { year: 2020, text: "Began building static websites" },
-  { year: 2022, text: "Graduated BEng with First Class Honours" },
+  {
+    year: 2022,
+    text: "Graduated from Mech and Elec BEng - First Class Honours",
+  },
   { year: 2023, text: "Graduate from FinTech with Data Science MSc" },
-  // { year: "future", text: "Become a Blockchain Developer" },
 ];
 
 export const TechnologiesData = [
