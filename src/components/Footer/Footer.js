@@ -31,7 +31,7 @@ const Footer = () => {
         </LinkColumn>
       </LinkList> */}
       <LinkColumn>
-        <LinkItem href="#welcome">Back to Top</LinkItem>
+        <LinkItem href="#welcome">Back to top</LinkItem>
       </LinkColumn>
       <div
         style={{

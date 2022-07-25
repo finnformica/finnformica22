@@ -4,7 +4,6 @@ import {
   DiPython,
   DiJavascript,
   DiScrum,
-  DiWebplatform,
 } from "react-icons/di";
 
 import { SiSolidity } from "react-icons/si";
@@ -25,7 +24,7 @@ export const projects = [
   //     "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
   //   image: "/images/1.png",
   //   tags: ["Mongo", "Express", "React", "Node"],
-  //   source: "https://google.com",
+  //   source: "https://first-next-app-pi.vercel.app/",
   //   github: "https://google.com",
   //   id: 1,
   // },
@@ -36,12 +35,8 @@ export const TimeLineData = [
   { year: 2017, text: "Trained my first ML model using NEAT" },
   { year: 2019, text: "Achieved 3A's and A*" },
   { year: 2020, text: "Began building static websites" },
-
-  {
-    year: 2022,
-    text: "Graduated BEng with First Class Honours",
-  },
-  { year: "now", text: "Financial Technology with Data Science MSc" },
+  { year: 2022, text: "Graduated BEng with First Class Honours" },
+  { year: 2023, text: "Graduate from FinTech with Data Science MSc" },
   // { year: "future", text: "Become a Blockchain Developer" },
 ];
 
