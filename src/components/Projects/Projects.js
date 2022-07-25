@@ -23,7 +23,7 @@ import {
 import { projects } from "../../constants/constants";
 
 const Projects = () => (
-  <Section id="projects">
+  <Section id="projects" style={{ paddingBottom: "2rem" }}>
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
