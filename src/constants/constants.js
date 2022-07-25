@@ -11,24 +11,24 @@ import { SiSolidity } from "react-icons/si";
 
 export const projects = [
   {
-    title: "MERN Memories",
-    description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    github: "https://google.com",
-    id: 0,
-  },
-  {
     title: "Asteroids with NEAT",
     description:
       "This was completed for my first year engineering coursework. I recreated the arcade game Asteroids using pygame, and then implemented the NEAT algorithm to train Neural Networks to play it.",
     image: "/images/asteroids-neat.png",
     tags: ["ML", "Python"],
     github: "https://github.com/finnformica/Asteroids-with-NEAT-python",
-    id: 3,
+    id: 0,
   },
+  // {
+  //   title: "MERN Memories",
+  //   description:
+  //     "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+  //   image: "/images/1.png",
+  //   tags: ["Mongo", "Express", "React", "Node"],
+  //   source: "https://google.com",
+  //   github: "https://google.com",
+  //   id: 1,
+  // },
 ];
 
 export const TimeLineData = [
