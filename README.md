@@ -36,5 +36,3 @@ npm run dev
 - Pre-rendering using Next.js
 - Projects are microservices attached to website
 - Search Engine Optimised
-
--update
