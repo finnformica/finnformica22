@@ -1,12 +1,5 @@
-import {
-  DiFirebase,
-  DiReact,
-  DiPython,
-  DiJavascript,
-  DiScrum,
-} from "react-icons/di";
-
-import { SiSolidity } from "react-icons/si";
+import { DiFirebase, DiReact, DiPython, DiScrum } from "react-icons/di";
+import { SiSolidity, SiFlask } from "react-icons/si";
 
 export const projects = [
   {
@@ -27,15 +20,35 @@ export const projects = [
     github: "https://github.com/finnformica/matrix-effect",
     id: 1,
   },
+  {
+    title: "Indicator Dashboard",
+    description:
+      "A web app to allow the display of custom indicators for financial price data designed with a microservice architecture. RESTful API back-end serves price and signal data from yfinance using FastAPI. The data is then fetched asynchronously in the front-end.",
+    image: "/images/indicator-dashboard-img.png",
+    tags: ["React", "Next.js"],
+    github: "https://github.com/finnformica/algo-api-charts",
+    source: "https://algo-api-app.herokuapp.com/docs",
+    id: 2,
+  },
+  {
+    title: "Flask Website",
+    description:
+      "My first personal website to explore web development and hosting a website with a custom domain name. I found the overall response time of the site very slow and the project difficult to add to and maintain.",
+    image: "/images/flask-website.png",
+    tags: ["Flask / Python", "Bootstrap", "Heroku"],
+    source: "https://finnformica22.herokuapp.com/",
+    github: "https://github.com/finnformica/personal-website-2022-flask",
+    id: 3,
+  },
   // {
-  //   title: "MERN Memories",
+  //   title: "",
   //   description:
-  //     "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-  //   image: "/images/1.png",
-  //   tags: ["Mongo", "Express", "React", "Node"],
-  //   source: "https://first-next-app-pi.vercel.app/",
-  //   github: "https://google.com",
-  //   id: 10,
+  //     "",
+  //   image: "/images/REPLACE.png",
+  //   tags: ["", ""],
+  //   source: "",
+  //   github: "",
+  //   id: REPLACE,
   // },
 ];
 
@@ -59,8 +72,8 @@ export const TechnologiesData = [
   },
   {
     title: "Back-End",
-    technology: "Node.js and Databases",
-    icon: <DiFirebase size="3rem" />,
+    technology: "Node.js and Flask",
+    icon: <SiFlask size="3rem" />,
   },
   {
     title: "AI / ML",
@@ -68,9 +81,9 @@ export const TechnologiesData = [
     icon: <DiPython size="3rem" />,
   },
   {
-    title: "Creative Coding",
-    technology: "Canvas Sketch",
-    icon: <DiJavascript size="3rem" />,
+    title: "Databases",
+    technology: "Snowflake and MongoDB",
+    icon: <DiFirebase size="3rem" />,
   },
   {
     title: "Blockchain",
