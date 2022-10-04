@@ -6,7 +6,7 @@ export const projects = [
     title: "Asteroids with NEAT",
     description:
       "This was completed for my first year engineering coursework. I recreated the arcade game Asteroids using pygame, and then implemented the NEAT algorithm to train Neural Networks to play it.",
-    image: "/images/asteroids-neat.png",
+    image: "/images/projects/asteroids-neat.png",
     tags: ["ML", "Python"],
     github: "https://github.com/finnformica/Asteroids-with-NEAT-python",
     id: 0,
@@ -15,7 +15,7 @@ export const projects = [
     title: "Image to Matrix",
     description:
       "Using canvas-sketch-cli, the input image is turned into a bitmap of greyscale data which is used to apply an opacity filter to the falling matrix characters. This then leaves an imprint of the image left on the page. The output can be stored as an image or a video.",
-    image: "/images/matrix-effect.png",
+    image: "/images/projects/matrix-effect.png",
     tags: ["canvas-sketch-cli", "JavaScript"],
     github: "https://github.com/finnformica/matrix-effect",
     id: 1,
@@ -24,7 +24,7 @@ export const projects = [
     title: "Indicator Dashboard",
     description:
       "A web app to allow the display of custom indicators for financial price data designed with a microservice architecture. RESTful API back-end serves price and signal data from yfinance using FastAPI. The data is then fetched asynchronously in the front-end.",
-    image: "/images/indicator-dashboard-img.png",
+    image: "/images/projects/indicator-dashboard-img.png",
     tags: ["React", "Next.js"],
     github: "https://github.com/finnformica/algo-api-charts",
     source: "https://algo-api-app.herokuapp.com/docs",
@@ -34,7 +34,7 @@ export const projects = [
     title: "Flask Website",
     description:
       "My first personal website to explore web development and hosting a website with a custom domain name. I found the overall response time of the site very slow and the project difficult to add to and maintain.",
-    image: "/images/flask-website.png",
+    image: "/images/projects/flask-website.png",
     tags: ["Flask / Python", "Bootstrap", "Heroku"],
     source: "https://finnformica22.herokuapp.com/",
     github: "https://github.com/finnformica/personal-website-2022-flask",
