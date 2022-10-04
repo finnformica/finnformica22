@@ -4,17 +4,53 @@ import path from "path";
 import matter from "gray-matter";
 
 import { BlogLayout } from "../../layout/BlogLayout";
-import { Section } from "../../styles/GlobalComponents";
+import { GridContainer } from "./BlogStyles";
+
+// import { PostCard } from "../../components/PostCard/PostCard";
+
+import {
+  BlogCard,
+  CardInfo,
+  ExternalLinks,
+  HeaderThree,
+  Hr,
+  Tag,
+  TagList,
+  TitleContent,
+  Img,
+} from "./PostCardStyles";
+
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
 
 // create personal blog here:
 // https://youtu.be/MrjeefD8sac
 
 const Blog = ({ posts }) => {
-  console.log(posts);
   return (
     <BlogLayout>
-      <Section>
-        <h1>Welcome to my blog!</h1>
+      <Section id="posts">
+        <SectionTitle>Dev Blog</SectionTitle>
+        <GridContainer>
+          {posts.map((post, index) => (
+            <BlogCard key={index}>
+              <Img src={post.frontmatter.cover_image} />
+              <TitleContent>
+                <HeaderThree title="true">{post.frontmatter.title}</HeaderThree>
+                <Hr />
+              </TitleContent>
+              <CardInfo>{post.frontmatter.excerpt}</CardInfo>
+              <div style={{ margin: "4rem 0 4rem 0" }}>
+                <ExternalLinks target="_blank" href="#">
+                  Read more
+                </ExternalLinks>
+              </div>
+            </BlogCard>
+          ))}
+        </GridContainer>
       </Section>
     </BlogLayout>
   );
