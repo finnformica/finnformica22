@@ -4,21 +4,9 @@ import path from "path";
 import matter from "gray-matter";
 
 import { BlogLayout } from "../../layout/BlogLayout";
-import { GridContainer } from "./BlogStyles";
-
-// import { PostCard } from "../../components/PostCard/PostCard";
-
-import {
-  BlogCard,
-  CardInfo,
-  ExternalLinks,
-  HeaderThree,
-  Hr,
-  Tag,
-  TagList,
-  TitleContent,
-  Img,
-} from "./PostCardStyles";
+import { GridContainer } from "../../components/Projects/ProjectsStyles";
+import PostCard from "../../components/PostCard/PostCard";
+import { sortByDate } from "../../utils";
 
 import {
   Section,
@@ -33,22 +21,10 @@ const Blog = ({ posts }) => {
   return (
     <BlogLayout>
       <Section id="posts">
-        <SectionTitle>Dev Blog</SectionTitle>
+        <SectionTitle>Latest</SectionTitle>
         <GridContainer>
           {posts.map((post, index) => (
-            <BlogCard key={index}>
-              <Img src={post.frontmatter.cover_image} />
-              <TitleContent>
-                <HeaderThree title="true">{post.frontmatter.title}</HeaderThree>
-                <Hr />
-              </TitleContent>
-              <CardInfo>{post.frontmatter.excerpt}</CardInfo>
-              <div style={{ margin: "4rem 0 4rem 0" }}>
-                <ExternalLinks target="_blank" href="#">
-                  Read more
-                </ExternalLinks>
-              </div>
-            </BlogCard>
+            <PostCard post={post} key={index} />
           ))}
         </GridContainer>
       </Section>
@@ -81,7 +57,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts,
+      posts: posts.sort(sortByDate),
     },
   };
 }
