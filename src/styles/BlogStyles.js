@@ -41,7 +41,6 @@ export const TitleSection = styled.div`
     margin-left: 0;
     width: 100%;
   }
-
-  @media ${(props) => props.theme.breakpoints.md} {
-  }
 `;
+
+// export default { Img, ExternalLinks, BlogHeader, TitleSection };

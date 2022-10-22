@@ -7,7 +7,12 @@ import Link from "next/link";
 
 import { BlogLayout } from "../../layout/BlogLayout";
 import { Section, SectionTitle } from "../../styles/GlobalComponents";
-import { ExternalLinks, Img, BlogHeader, TitleSection } from "./BlogStyles";
+import {
+  ExternalLinks,
+  Img,
+  BlogHeader,
+  TitleSection,
+} from "../../styles/BlogStyles";
 
 const PostPage = ({
   frontmatter: { title, date, cover_image },
