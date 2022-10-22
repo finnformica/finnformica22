@@ -6,7 +6,7 @@ cover_image: "/images/posts/img4.jpeg"
 ---
 
 Lorem markdownum erat meritum instat quis! Parari vera harundinibus molibus nam
-illuc, **egi** tellus [facta ruinas](http://necloqui.com/fuit.html), iterumque!
+illuc, **egi** tellus facta ruinas, iterumque!
 Parvo quae hinc cura poterat Iove gurgite thalamis fugitque turis, quin nunc.
 
     var pdf_linux_radcab = gibibyteAspUri + firewireIvr -
@@ -20,14 +20,14 @@ Parvo quae hinc cura poterat Iove gurgite thalamis fugitque turis, quin nunc.
 
 Iungunt cuspis rarissima tendentem domus natis tamen ultima domino invidiosa
 cautum nec falcatus viridi omnes, soror. Ire tacita. Dissidet eat voce et
-Pactolides illa sed [hunc](http://passim.com/) longi illa arborea, dum securi;
+Pactolides illa sed hunc longi illa arborea, dum securi;
 vidit.
 
 ## Dant testa animalia sequendi paterni manus parte
 
 _Venus_ dissimulare perii _iaculatur dedere multumque_ sitim, cur tela
 temeraria, per? Meum eque deae tu vidisse Frigus triennia, equo
-[trahit](http://in.net/ignarusfuit.html), enim verti commota prima cornibus
+trahit, enim verti commota prima cornibus
 pectora!
 
     tiffWord(snippetAnimatedCd);
@@ -40,8 +40,7 @@ pectora!
     }
 
 Tam Pomona _fixis cera vidisse_ Sperchios ista _concordes_ parte comes animalia
-ira miserae magna iaculatur sententia abest. [Est](http://puer-nec.io/squalidus)
-illam esse hasta? Iamque Argolico spumam quondam, Sirenes dolor longus arbor
+ira miserae magna iaculatur sententia abest. Est illam esse hasta? Iamque Argolico spumam quondam, Sirenes dolor longus arbor
 perque.
 
 ## Iamque illa numquam dictis
@@ -64,7 +63,7 @@ plenissima ita tangit cum nisi.
             andCopy.intellectual_so_iteration.cross(moduleReadme, programming +
             broadband);
 
-Mirantia deique sacerdos, opus, at [generis eandem
-planamque](http://www.potentia.net/lapis). Caecos pedibus velo pennas esse nam
+Mirantia deique sacerdos, opus, at generis eandem
+planamque. Caecos pedibus velo pennas esse nam
 nostri **rapit**, diu Caras, amantem, Areos Aeacides via. Ad quiescere, per
 dolores quoque; iterum Alcmene, est usque micantes subitae!
