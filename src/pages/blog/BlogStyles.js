@@ -21,3 +21,27 @@ export const ExternalLinks = styled.a`
     background: white;
   }
 `;
+
+export const BlogHeader = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+`;
+
+export const TitleSection = styled.div`
+  margin-left: 30px;
+  width: 50%;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+  }
+`;

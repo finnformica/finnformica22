@@ -7,7 +7,7 @@ import Link from "next/link";
 
 import { BlogLayout } from "../../layout/BlogLayout";
 import { Section, SectionTitle } from "../../styles/GlobalComponents";
-import { ExternalLinks, Img } from "../../components/Projects/ProjectsStyles";
+import { ExternalLinks, Img, BlogHeader, TitleSection } from "./BlogStyles";
 
 const PostPage = ({
   frontmatter: { title, date, cover_image },
@@ -17,28 +17,32 @@ const PostPage = ({
   return (
     <BlogLayout>
       <Section>
-        <Img
-          src={cover_image}
-          style={{
-            borderRadius: "30px",
-            marginBottom: "30px",
-          }}
-        />
-
-        <SectionTitle>{title}</SectionTitle>
-        <div style={{ margin: "2rem 0 4rem 0" }}>
-          <strong style={{ color: "#b9d9eb", marginRight: "40px" }}>
-            <span>{date}</span>
-          </strong>
-          <Link href="/blog">
-            <ExternalLinks style={{ width: "115px" }}>Go back</ExternalLinks>
-          </Link>
-        </div>
+        <BlogHeader>
+          <Img
+            src={cover_image}
+            style={{
+              borderRadius: "30px",
+              marginBottom: "10px",
+            }}
+          />
+          <TitleSection>
+            <SectionTitle>{title}</SectionTitle>
+            <div style={{ margin: "4rem 0 4rem 0" }}>
+              <strong style={{ color: "#b9d9eb", marginRight: "40px" }}>
+                <span>{date}</span>
+              </strong>
+              <Link href="/blog">
+                <ExternalLinks style={{ width: "115px" }}>
+                  Go back
+                </ExternalLinks>
+              </Link>
+            </div>
+          </TitleSection>
+        </BlogHeader>
 
         <div
           dangerouslySetInnerHTML={{ __html: marked(content) }}
           style={{
-            // marginTop: "20px",
             color: "#cfcfcf",
             textDecoration: "none",
             lineHeight: 1.7,
