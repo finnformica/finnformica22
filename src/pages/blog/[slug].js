@@ -9,8 +9,6 @@ import { BlogLayout } from "../../layout/BlogLayout";
 import { Section, SectionTitle } from "../../styles/GlobalComponents";
 import { ExternalLinks, Img } from "../../components/Projects/ProjectsStyles";
 
-import "./Post.module.css";
-
 // make title and image wrap around each other at larger sizes
 const PostPage = ({
   frontmatter: { title, date, cover_image },
@@ -33,14 +31,14 @@ const PostPage = ({
         <Img
           src={cover_image}
           style={{
-            paddingBottom: "20px",
-            background: "rgba(76, 175, 80, 0.3)",
+            borderRadius: "30px",
           }}
         />
 
         <div
           dangerouslySetInnerHTML={{ __html: marked(content) }}
           style={{
+            marginTop: "20px",
             color: "#cfcfcf",
             textDecoration: "none",
             lineHeight: 1.7,
