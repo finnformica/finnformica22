@@ -8,14 +8,7 @@ import { GridContainer } from "../../components/Projects/ProjectsStyles";
 import PostCard from "../../components/PostCard/PostCard";
 import { sortByDate } from "../../utils";
 
-import {
-  Section,
-  SectionDivider,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
-
-// create personal blog here:
-// https://youtu.be/MrjeefD8sac
+import { Section, SectionTitle } from "../../styles/GlobalComponents";
 
 const Blog = ({ posts }) => {
   return (
