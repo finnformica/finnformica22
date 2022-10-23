@@ -36,8 +36,9 @@ const Timeline = () => {
       const scrollLeft = Math.floor(
         carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length)
       );
-
-      scroll(carouselRef.current, scrollLeft);
+      // if (carouselRef.current) {
+      //   scroll(carouselRef.current, scrollLeft);
+      // }
     }
   };
 
@@ -58,7 +59,9 @@ const Timeline = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      scroll(carouselRef.current, 0);
+      // if (carouselRef.current) {
+      //   scroll(carouselRef.current, 0);
+      // }
     };
 
     window.addEventListener("resize", handleResize);
