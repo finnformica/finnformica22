@@ -8,13 +8,22 @@ import { GridContainer } from "../../components/Projects/ProjectsStyles";
 import PostCard from "../../components/PostCard/PostCard";
 import { sortByDate } from "../../utils";
 
-import { Section, SectionTitle } from "../../styles/GlobalComponents";
+import {
+  Section,
+  SectionTitle,
+  SectionText,
+} from "../../styles/GlobalComponents";
 
 const Blog = ({ posts }) => {
   return (
     <BlogLayout>
       <Section id="posts">
-        <SectionTitle>Latest</SectionTitle>
+        <SectionTitle>Blog</SectionTitle>
+        <SectionText>
+          Throughout my software projects I have stumbled across topics that may
+          be useful or interesting to others. I have written these posts as a
+          way to document some of this.
+        </SectionText>
         <GridContainer>
           {posts.map((post, index) => (
             <PostCard post={post} key={index} />

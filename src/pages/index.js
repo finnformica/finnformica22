@@ -7,6 +7,11 @@ import Timeline from "../components/TimeLine/TimeLine";
 import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
 
+// TO-DO:
+// fix "scrollTo" bug [x]
+// remove padding on blog navbar [x]
+// write first blog post
+
 const Home = () => {
   return (
     <Layout>
