@@ -38,3 +38,6 @@ jspm_packages
 .next
 
 .DS_Store
+
+# export directory
+out
