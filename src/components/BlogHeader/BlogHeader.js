@@ -3,17 +3,9 @@ import React from "react";
 import { AiFillGithub, AiFillMail, AiFillLinkedin } from "react-icons/ai";
 import { GiAbstract065, GiCirclingFish } from "react-icons/gi";
 
-import {
-  Container,
-  Div1,
-  Div2,
-  Div3,
-  NavLink,
-  SocialIcons,
-  Span,
-} from "./HeaderStyles";
+import { Container, Div1, Div3, SocialIcons, Span } from "./BlogHeaderStyles";
 
-const Header = () => (
+const BlogHeader = () => (
   <Container id="welcome">
     <Div1>
       <Link href="/">
@@ -33,23 +25,6 @@ const Header = () => (
         </a>
       </Link>
     </Div1>
-    <Div2>
-      <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="/blog">
-          <NavLink>Blog</NavLink>
-        </Link>
-      </li>
-    </Div2>
     <Div3>
       <SocialIcons target="_blank" href="https://github.com/finnformica">
         <AiFillGithub size="3rem" />
@@ -67,4 +42,4 @@ const Header = () => (
   </Container>
 );
 
-export default Header;
+export default BlogHeader;
