@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillMail, AiFillLinkedin } from "react-icons/ai";
-import { GiAbstract065, GiCirclingFish } from "react-icons/gi";
+import { GiAbstract065 } from "react-icons/gi";
 
 import { Container, Div1, Div3, SocialIcons, Span } from "./BlogHeaderStyles";
 
