@@ -26,7 +26,7 @@ const PostPage = ({
           <Img
             src={cover_image}
             style={{
-              borderRadius: "30px",
+              borderRadius: "20px",
               marginBottom: "10px",
             }}
           />
