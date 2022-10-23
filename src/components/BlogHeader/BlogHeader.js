@@ -31,7 +31,7 @@ const BlogHeader = () => (
       </SocialIcons>
       <SocialIcons
         target="_blank"
-        href="https://www.linkedin.com/in/finn-formica-29093a1ab"
+        href="https://www.linkedin.com/in/finnformica"
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>

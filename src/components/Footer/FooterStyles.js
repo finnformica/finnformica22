@@ -32,14 +32,6 @@ export const LinkItem = styled.a`
     line-height: 28px;
     display: flex;
   }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 8px;
-    line-height: 14px;
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-  }
 `;
 
 export const SocialIconsContainer = styled.div`
