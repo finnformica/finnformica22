@@ -49,7 +49,6 @@ const PostPage = ({
           dangerouslySetInnerHTML={{ __html: marked(content) }}
           style={{
             color: "#cfcfcf",
-            textDecoration: "none",
             lineHeight: 1.7,
           }}
         ></div>
