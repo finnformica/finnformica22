@@ -17,7 +17,7 @@ import {
 const Blog = ({ posts }) => {
   return (
     <BlogLayout>
-      <Section id="posts">
+      <Section id="posts" style={{ paddingBottom: "15px" }}>
         <SectionTitle>Blog</SectionTitle>
         <SectionText>
           Throughout my software projects I have stumbled across topics that may
