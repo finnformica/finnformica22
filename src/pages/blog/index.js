@@ -22,7 +22,7 @@ const Blog = ({ posts }) => {
         <SectionText>
           Throughout my software projects I have stumbled across topics that may
           be useful or interesting to others. I have written these posts as a
-          way to document some of this.
+          high-level way to document some of this.
         </SectionText>
         <GridContainer>
           {posts.map((post, index) => (
