@@ -13,6 +13,7 @@ import {
   BlogHeader,
   TitleSection,
 } from "../../styles/BlogStyles";
+import { SectionDivider } from "../../styles/GlobalComponents";
 
 const PostPage = ({
   frontmatter: { title, date, cover_image },
@@ -52,6 +53,7 @@ const PostPage = ({
             lineHeight: 1.7,
           }}
         ></div>
+        <SectionDivider style={{ marginTop: "30px" }} />
       </Section>
     </BlogLayout>
   );
