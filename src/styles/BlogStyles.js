@@ -42,5 +42,3 @@ export const TitleSection = styled.div`
     width: 100%;
   }
 `;
-
-// export default { Img, ExternalLinks, BlogHeader, TitleSection };

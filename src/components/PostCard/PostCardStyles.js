@@ -1,5 +1,24 @@
 import styled from "styled-components";
 
+export const PostFooter = styled.div`
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: row;
+
+  @media ${(props) => props.theme.breakpoints.xs} {
+    flex-direction: column;
+    margin: 0.5rem 0 3rem 0;
+  }
+`;
+
+export const PostDate = styled.strong`
+  color: #b9d9eb;
+  margin: auto;
+  @media ${(props) => props.theme.breakpoints.xs} {
+    margin-bottom: 20px;
+  }
+`;
+
 export const Img = styled.img`
   width: 100%;
   height: 100%;
@@ -69,9 +88,9 @@ export const CardInfo = styled.p`
 
 export const ExternalLinks = styled.a`
   color: white;
+  margin: auto;
   font-size: 1.6rem;
   padding: 1rem 2.5rem;
-  margin: auto 1rem;
   border-radius: 25px;
   border: 1px solid white;
   transition: 0.5s;

@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 import {
+  PostFooter,
+  PostDate,
   BlogCard,
   CardInfo,
   ExternalLinks,
@@ -23,14 +25,12 @@ const PostCard = ({
       <Hr />
     </TitleContent>
     <CardInfo>{excerpt}</CardInfo>
-    <div style={{ margin: "4rem 0 4rem 0" }}>
-      <strong style={{ color: "#b9d9eb", marginRight: "40px" }}>
-        <span>{date}</span>
-      </strong>
+    <PostFooter>
+      <PostDate>{date}</PostDate>
       <Link href={`/blog/${slug}`}>
         <ExternalLinks>Read more</ExternalLinks>
       </Link>
-    </div>
+    </PostFooter>
   </BlogCard>
 );
 
