@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-An updated version of a personal portfolio website since I my first iteration was too slow and felt outdated.
+An updated version of a personal portfolio website since I my first iteration was too slow and felt outdated. This version also contains a simple blog section which will contain posts about my software struggles and successes.
 
 ## Dependencies
 
@@ -33,6 +33,7 @@ npm run dev
 
 - Single Page Application
 - React.js
-- Pre-rendering using Next.js
+- Static site generation using Next.js
 - Projects are microservices attached to website
 - Search Engine Optimised
+- Blog section with static posts loaded from Markdown files
