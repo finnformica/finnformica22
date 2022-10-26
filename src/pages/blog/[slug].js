@@ -55,6 +55,9 @@ const PostPage = ({
           <div
             dangerouslySetInnerHTML={{ __html: marked(content) }}
             style={{
+              backgroundColor: "rgba(27,39,64, 0.5)",
+              borderRadius: "10px",
+              padding: "25px",
               color: "#cfcfcf",
               lineHeight: 1.7,
             }}
