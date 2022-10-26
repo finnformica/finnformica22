@@ -3,7 +3,8 @@ import React from "react";
 import { AiFillGithub, AiFillMail, AiFillLinkedin } from "react-icons/ai";
 import { GiAbstract065 } from "react-icons/gi";
 
-import { Container, Div1, Div3, SocialIcons, Span } from "./BlogHeaderStyles";
+import { SocialIcons } from "../Header/HeaderStyles";
+import { Container, Div1, Div3, Span } from "./BlogHeaderStyles";
 
 const BlogHeader = () => (
   <Container id="welcome">

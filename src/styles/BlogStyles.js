@@ -5,6 +5,7 @@ export const Img = styled.img`
   height: 100%;
   object-fit: cover;
   overflow: hidden;
+  box-shadow: 2px 2px 15px rgba(80, 78, 78, 0.5);
 `;
 
 export const ExternalLinks = styled.a`
