@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import { marked } from "marked";
 
 import Link from "next/link";
+import Head from "next/head";
 
 import { BlogLayout } from "../../layout/BlogLayout";
 import { Section, SectionTitle } from "../../styles/GlobalComponents";
@@ -21,41 +22,47 @@ const PostPage = ({
   content,
 }) => {
   return (
-    <BlogLayout>
-      <Section>
-        <BlogHeader>
-          <Img
-            src={cover_image}
-            style={{
-              borderRadius: "20px",
-              marginBottom: "10px",
-            }}
-          />
-          <TitleSection>
-            <SectionTitle>{title}</SectionTitle>
-            <div style={{ margin: "4rem 0 4rem 0" }}>
-              <strong style={{ color: "#b9d9eb", marginRight: "40px" }}>
-                <span>{date}</span>
-              </strong>
-              <Link href="/blog">
-                <ExternalLinks style={{ width: "115px" }}>
-                  Go back
-                </ExternalLinks>
-              </Link>
-            </div>
-          </TitleSection>
-        </BlogHeader>
+    <>
+      <Head>
+        <title>Finn Formica | Blog</title>
+      </Head>
 
-        <div
-          dangerouslySetInnerHTML={{ __html: marked(content) }}
-          style={{
-            color: "#cfcfcf",
-            lineHeight: 1.7,
-          }}
-        ></div>
-        <SectionDivider style={{ marginTop: "30px" }} />
-      </Section>
-    </BlogLayout>
+      <BlogLayout>
+        <Section>
+          <BlogHeader>
+            <Img
+              src={cover_image}
+              style={{
+                borderRadius: "20px",
+                marginBottom: "10px",
+              }}
+            />
+            <TitleSection>
+              <SectionTitle>{title}</SectionTitle>
+              <div style={{ margin: "4rem 0 4rem 0" }}>
+                <strong style={{ color: "#b9d9eb", marginRight: "40px" }}>
+                  <span>{date}</span>
+                </strong>
+                <Link href="/blog">
+                  <ExternalLinks style={{ width: "115px" }}>
+                    Go back
+                  </ExternalLinks>
+                </Link>
+              </div>
+            </TitleSection>
+          </BlogHeader>
+
+          <div
+            dangerouslySetInnerHTML={{ __html: marked(content) }}
+            style={{
+              color: "#cfcfcf",
+              lineHeight: 1.7,
+            }}
+          ></div>
+          <SectionDivider style={{ marginTop: "30px" }} />
+        </Section>
+      </BlogLayout>
+    </>
   );
 };
 

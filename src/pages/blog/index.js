@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
@@ -16,21 +17,26 @@ import {
 
 const Blog = ({ posts }) => {
   return (
-    <BlogLayout>
-      <Section id="posts" style={{ paddingBottom: "15px" }}>
-        <SectionTitle>Blog</SectionTitle>
-        <SectionText>
-          Throughout my software projects I have stumbled across topics that may
-          be useful or interesting to others. I have written these posts as a
-          high-level way to document some of this.
-        </SectionText>
-        <GridContainer>
-          {posts.map((post, index) => (
-            <PostCard post={post} key={index} />
-          ))}
-        </GridContainer>
-      </Section>
-    </BlogLayout>
+    <>
+      <Head>
+        <title>Finn Formica | Blog</title>
+      </Head>
+      <BlogLayout>
+        <Section id="posts" style={{ paddingBottom: "15px" }}>
+          <SectionTitle>Blog</SectionTitle>
+          <SectionText>
+            Throughout my software projects I have stumbled across topics that
+            may be useful or interesting to others. I have written these posts
+            as a high-level way to document some of this.
+          </SectionText>
+          <GridContainer>
+            {posts.map((post, index) => (
+              <PostCard post={post} key={index} />
+            ))}
+          </GridContainer>
+        </Section>
+      </BlogLayout>
+    </>
   );
 };
 
