@@ -40,6 +40,7 @@ export const TitleSection = styled.div`
 
   @media ${(props) => props.theme.breakpoints.md} {
     margin-left: 0;
+    margin-top: 20px;
     width: 100%;
   }
 `;
