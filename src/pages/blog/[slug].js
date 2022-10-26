@@ -62,7 +62,7 @@ const PostPage = ({
               lineHeight: 1.7,
             }}
           ></div>
-          <SectionDivider style={{ marginTop: "30px" }} />
+          <SectionDivider style={{ marginTop: "35px" }} />
         </Section>
       </BlogLayout>
     </>
