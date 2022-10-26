@@ -17,7 +17,8 @@ const BlogHeader = () => (
             color: "white",
           }}
         >
-          <GiAbstract065 size="3rem" />
+          <img src="../favicon.png" style={{ width: "36px" }} />
+          {/* <GiAbstract065 size="3rem" /> */}
           <Span
             style={{ marginLeft: "10px", marginRight: "30px", width: "160px" }}
           >
