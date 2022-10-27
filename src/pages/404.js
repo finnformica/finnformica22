@@ -16,7 +16,7 @@ const ErrorPage404 = (props) => {
         <SectionTitle>Not found</SectionTitle>
         <SectionText>The page you're looking for was not found.</SectionText>
         <Link href="/">
-          <ExternalLinks style={{ width: "175px", margin: 0 }}>
+          <ExternalLinks style={{ width: "173px", margin: 0 }}>
             Return to home
           </ExternalLinks>
         </Link>
