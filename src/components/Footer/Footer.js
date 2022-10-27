@@ -32,7 +32,7 @@ const Footer = ({ hidden }) => {
       </LinkList> */}
       {!hidden && (
         <LinkColumn>
-          <LinkItem href="#welcome">Back to top</LinkItem>
+          <LinkItem href="#top">Back to top</LinkItem>
         </LinkColumn>
       )}
 

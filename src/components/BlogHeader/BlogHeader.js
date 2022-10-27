@@ -7,7 +7,7 @@ import { SocialIcons } from "../Header/HeaderStyles";
 import { Container, Div1, Div3, Span } from "./BlogHeaderStyles";
 
 const BlogHeader = () => (
-  <Container id="welcome">
+  <Container id="top">
     <Div1>
       <Link href="/">
         <a

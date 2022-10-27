@@ -14,7 +14,7 @@ import {
 } from "./HeaderStyles";
 
 const Header = () => (
-  <Container id="welcome">
+  <Container id="top">
     <Div1>
       <Link href="/">
         <a
