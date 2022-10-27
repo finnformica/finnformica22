@@ -60,6 +60,7 @@ const PostPage = ({
               padding: "25px",
               color: "#cfcfcf",
               lineHeight: 1.7,
+              border: "1px solid rgba(255, 255, 255, 0.1)",
             }}
           ></div>
           <SectionDivider style={{ marginTop: "35px" }} />
