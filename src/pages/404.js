@@ -12,7 +12,7 @@ const ErrorPage404 = (props) => {
   return (
     <BlogLayout error={true}>
       <Section style={{ padding: "15%" }}>
-        <SectionDivider style={{ marginBottom: "30px" }} />
+        <SectionDivider style={{ marginBottom: "40px" }} />
         <SectionTitle>Not found</SectionTitle>
         <SectionText>The page you're looking for was not found.</SectionText>
         <Link href="/">
