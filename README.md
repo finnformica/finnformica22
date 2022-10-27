@@ -38,3 +38,8 @@ npm run dev
 - Search Engine Optimised
 - Blog section with static posts loaded from Markdown files
 - 404 error handling + custom error page
+
+### Future features:
+
+- 2022-10-23 Dark theme toggle
+- 2022-10-27 Create 3-D Voxel image of blue dino (logo)
