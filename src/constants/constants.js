@@ -36,7 +36,7 @@ export const projects = [
       "My first personal website to explore web development and hosting a website with a custom domain name. I found the overall response time of the site very slow and the project difficult to add to and maintain.",
     image: "/images/projects/flask-website.png",
     tags: ["Flask / Python", "Bootstrap", "Heroku"],
-    source: "https://finnformica22.herokuapp.com/",
+    source: "https://finnformica22.up.railway.app/",
     github: "https://github.com/finnformica/personal-website-2022-flask",
     id: 3,
   },
