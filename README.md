@@ -37,3 +37,4 @@ npm run dev
 - Projects are microservices attached to website
 - Search Engine Optimised
 - Blog section with static posts loaded from Markdown files
+- 404 error handling + custom error page
