@@ -15,7 +15,7 @@ const Hero = (props) => (
         Welcome!
       </SectionTitle>
       <SectionText>
-        I am a Mechanical and Electrical engineer graduate, completing a
+        I am a Mechanical and Electrical engineer graduate completing a
         Financial Technology with Data Science MSc. I have a keen interest in
         Data Science, Web Development, and Artificial Intelligence.
       </SectionText>
