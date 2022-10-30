@@ -24,7 +24,7 @@ const PostPage = ({
   return (
     <>
       <Head>
-        <title>Finn Formica | Blog</title>
+        <title>Finn Formica - Blog</title>
       </Head>
 
       <BlogLayout>
