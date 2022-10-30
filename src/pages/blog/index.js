@@ -19,7 +19,15 @@ const Blog = ({ posts }) => {
   return (
     <>
       <Head>
-        <title>Finn Formica | Blog</title>
+        <title>Finn Formica - Blog</title>
+        <meta
+          name="keywords"
+          content="personal blog, nextjs, web development, data science"
+        />
+        <meta
+          name="description"
+          content="Hi, I am an aspiring software engineer and data science masters student - welcome to my personal blog!"
+        />
       </Head>
       <BlogLayout>
         <Section id="posts" style={{ paddingBottom: "15px" }}>
