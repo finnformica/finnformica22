@@ -14,7 +14,7 @@ import {
   SocialIconsContainer,
 } from "./FooterStyles";
 
-const Footer = () => {
+const Footer = ({ hidden }) => {
   return (
     <FooterWrapper>
       {/* <LinkList>
@@ -30,9 +30,12 @@ const Footer = () => {
           </LinkItem>
         </LinkColumn>
       </LinkList> */}
-      <LinkColumn>
-        <LinkItem href="#welcome">Back to top</LinkItem>
-      </LinkColumn>
+      {!hidden && (
+        <LinkColumn>
+          <LinkItem href="#top">Back to top</LinkItem>
+        </LinkColumn>
+      )}
+
       <div
         style={{
           borderTop: "1px solid rgba(255, 255, 255, 0.1)",

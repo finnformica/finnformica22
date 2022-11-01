@@ -3,10 +3,11 @@ import React from "react";
 import { AiFillGithub, AiFillMail, AiFillLinkedin } from "react-icons/ai";
 import { GiAbstract065 } from "react-icons/gi";
 
-import { Container, Div1, Div3, SocialIcons, Span } from "./BlogHeaderStyles";
+import { SocialIcons } from "../Header/HeaderStyles";
+import { Container, Div1, Div3, Span } from "./BlogHeaderStyles";
 
 const BlogHeader = () => (
-  <Container id="welcome">
+  <Container id="top">
     <Div1>
       <Link href="/">
         <a
@@ -16,7 +17,8 @@ const BlogHeader = () => (
             color: "white",
           }}
         >
-          <GiAbstract065 size="3rem" />
+          <img src="../favicon.png" style={{ width: "36px" }} />
+          {/* <GiAbstract065 size="3rem" /> */}
           <Span
             style={{ marginLeft: "10px", marginRight: "30px", width: "160px" }}
           >
