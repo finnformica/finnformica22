@@ -25,7 +25,7 @@ export const projects = [
     description:
       "A web app to allow the display of custom indicators for financial price data designed with a microservice architecture. RESTful API back-end serves price and signal data from yfinance using FastAPI. The data is then fetched asynchronously in the front-end.",
     image: "/images/projects/indicator-dashboard-img.png",
-    tags: ["React", "Next.js"],
+    tags: ["React", "Next.js", "FastAPI"],
     github: "https://github.com/finnformica/algo-api-charts",
     source: "https://algo-api-app.herokuapp.com/docs",
     id: 2,
