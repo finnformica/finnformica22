@@ -27,7 +27,7 @@ export const projects = [
     image: "/images/projects/indicator-dashboard-img.png",
     tags: ["React", "Next.js", "FastAPI"],
     github: "https://github.com/finnformica/algo-api-charts",
-    source: "https://algo-api-app.herokuapp.com/docs",
+    source: "https://algo-api.up.railway.app/docs",
     id: 2,
   },
   {
