@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
@@ -5,6 +7,9 @@ import { marked } from "marked";
 
 import Link from "next/link";
 import Head from "next/head";
+
+import hljs from "highlight.js";
+import "highlight.js/styles/github.css";
 
 import { BlogLayout } from "../../layout/BlogLayout";
 import { Section, SectionTitle } from "../../styles/GlobalComponents";
@@ -16,11 +21,32 @@ import {
 } from "../../styles/BlogStyles";
 import { SectionDivider } from "../../styles/GlobalComponents";
 
+// set options for syntax highlighting
+marked.setOptions({
+  renderer: new marked.Renderer(),
+  highlight: function (code, lang) {
+    const language = hljs.getLanguage(lang) ? lang : "plaintext";
+    return hljs.highlight(code, { language }).value;
+  },
+  langPrefix: "hljs language-", // highlight.js css expects a top-level 'hljs' class.
+  pedantic: false,
+  gfm: true,
+  breaks: false,
+  sanitize: false,
+  smartypants: false,
+  xhtml: false,
+});
+
 const PostPage = ({
   frontmatter: { title, date, cover_image },
   slug,
   content,
 }) => {
+  useEffect(() => {
+    hljs.initHighlighting.called = false;
+    hljs.initHighlighting();
+  }, []);
+
   return (
     <>
       <Head>
