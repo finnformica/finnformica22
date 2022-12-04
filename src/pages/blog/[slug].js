@@ -9,7 +9,7 @@ import Link from "next/link";
 import Head from "next/head";
 
 import hljs from "highlight.js";
-import "highlight.js/styles/github.css";
+import "highlight.js/styles/monokai.css";
 
 import { BlogLayout } from "../../layout/BlogLayout";
 import { Section, SectionTitle } from "../../styles/GlobalComponents";
