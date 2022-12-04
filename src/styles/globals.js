@@ -42,9 +42,9 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .hljs {
-    color: black;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 2px;
+    color: #cfcfcf;
+    background: #0F1624;
+    border-radius: 3px;
   }
 `;
 
