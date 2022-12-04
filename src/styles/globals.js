@@ -31,12 +31,20 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
-  code {
-    display: inline-block;
-    white-space: normal;
-    max-width:100%;
-    word-break:break-all;
-    word-wrap:break-word;
+
+  // style code blocks
+  pre {
+    padding: 2rem;
+
+    @media ${(props) => props.theme.breakpoints.sm} {
+      padding: 2rem 0;
+    }
+  }
+
+  .hljs {
+    color: #cfcfcf;
+    background: #0F1624;
+    border-radius: 3px;
   }
 `;
 
