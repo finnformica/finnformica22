@@ -40,6 +40,17 @@ export const projects = [
     github: "https://github.com/finnformica/personal-website-2022-flask",
     id: 3,
   },
+  {
+    title: "Analysis of Zero-Intelligence Traders",
+    description:
+      "Using the Bristol Stock Exchange simulation, I ran analysis on five automated trading agents to compare their performance and determine the most profitable trader. The experiments were run in Python and the analysis and visualisation in R.",
+    image: "/images/projects/ca3_boxplot.png",
+    tags: ["Python", "R"],
+    source:
+      "https://github.com/finnformica/BristolStockExchange/blob/ca3/CA3_report.pdf",
+    github: "https://github.com/finnformica/BristolStockExchange/tree/ca3",
+    id: 4,
+  },
   // {
   //   title: "",
   //   description:
