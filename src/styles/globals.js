@@ -44,7 +44,14 @@ const GlobalStyles = createGlobalStyle`
   .hljs {
     color: #cfcfcf;
     background: #0F1624;
-    border-radius: 3px;
+    border-radius: 5px;
+  }
+
+  .blog-img {
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px
   }
 `;
 
