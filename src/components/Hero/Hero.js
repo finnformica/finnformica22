@@ -9,15 +9,16 @@ import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
-  <Section row nopadding>
+  <Section row nopadding style={{ paddingLeft: "0" }}>
     <LeftSection>
       <SectionTitle main center>
         Welcome!
       </SectionTitle>
       <SectionText
         style={{
+          color: "rgba(255, 255, 255, 0.6)",
           textShadow:
-            "-1px 0 5px #0F1624, 0 1px 5px #0F1624, 1px 0 5px #0F1624, 0 -1px 5px #0F1624",
+            "-5px 0 8px #0F1624, 0 5px 8px #0F1624, 5px 0 8px #0F1624, 0 -5px 8px #0F1624",
         }}
       >
         I am a Mechanical and Electrical engineer graduate completing a
