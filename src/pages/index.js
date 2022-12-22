@@ -12,7 +12,8 @@ const Home = () => {
     <Layout>
       <Section grid>
         <Hero />
-        <BgAnimation />
+        {/* <BgAnimation /> */}
+        <img src="/images/hero-img.png" style={{ width: "450px" }} />
       </Section>
       <Projects />
       <Technologies />
