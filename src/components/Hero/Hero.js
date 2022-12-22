@@ -14,7 +14,12 @@ const Hero = (props) => (
       <SectionTitle main center>
         Welcome!
       </SectionTitle>
-      <SectionText>
+      <SectionText
+        style={{
+          textShadow:
+            "-1px 0 5px #0F1624, 0 1px 5px #0F1624, 1px 0 5px #0F1624, 0 -1px 5px #0F1624",
+        }}
+      >
         I am a Mechanical and Electrical engineer graduate completing a
         Financial Technology with Data Science MSc. I have a keen interest in
         Data Science, Web Development, and Artificial Intelligence.
