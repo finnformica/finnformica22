@@ -10,7 +10,7 @@ import { ExternalLinks } from "../components/Projects/ProjectsStyles";
 
 const ErrorPage404 = (props) => {
   return (
-    <Layout error={true}>
+    <Layout error={true} hidden={true}>
       <Section style={{ padding: "15%" }}>
         <SectionDivider style={{ marginBottom: "40px" }} />
         <SectionTitle>Not found</SectionTitle>
