@@ -40,17 +40,18 @@ const Header = ({ hidden }) => (
     <Div2>
       {!hidden && (
         <>
-          <Link href="#projects">
-            <NavLink>Projects</NavLink>
-          </Link>
+          <NavLink href="#projects" alt="projects">
+            Projects
+          </NavLink>
 
-          <Link href="#about">
-            <NavLink>About</NavLink>
-          </Link>
-
-          <Link href="/blog">
-            <NavLink>Blog</NavLink>
-          </Link>
+          <NavLink href="#about" alt="about">
+            About
+          </NavLink>
+          <NavLink>
+            <Link href="/blog" alt="blog">
+              Blog
+            </Link>
+          </NavLink>
         </>
       )}
     </Div2>
