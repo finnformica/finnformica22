@@ -14,27 +14,12 @@ import {
   SocialIconsContainer,
 } from "./FooterStyles";
 
-const Footer = ({ hidden }) => {
+const Footer = ({}) => {
   return (
     <FooterWrapper>
-      {/* <LinkList>
-        <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:111-111-1111">111-111-1111</LinkItem>
-        </LinkColumn>
-
-        <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:hello@finnformica.com">
-            hello@finnformica.com
-          </LinkItem>
-        </LinkColumn>
-      </LinkList> */}
-      {!hidden && (
-        <LinkColumn>
-          <LinkItem href="#top">Back to top</LinkItem>
-        </LinkColumn>
-      )}
+      <LinkColumn>
+        <LinkItem href="#top">Back to top</LinkItem>
+      </LinkColumn>
 
       <div
         style={{
