@@ -14,12 +14,14 @@ import {
   SocialIconsContainer,
 } from "./FooterStyles";
 
-const Footer = ({}) => {
+const Footer = ({ hidden }) => {
   return (
     <FooterWrapper>
-      <LinkColumn>
-        <LinkItem href="#top">Back to top</LinkItem>
-      </LinkColumn>
+      {!hidden && (
+        <LinkColumn>
+          <LinkItem href="#top">Back to top</LinkItem>
+        </LinkColumn>
+      )}
 
       <div
         style={{
