@@ -23,6 +23,7 @@ export default function App({ Component, pageProps }) {
           name="description"
           content="Hi, I am an aspiring software engineer and data science masters student - welcome to my personal portfolio website!"
         />
+        <meta name="robots" content="all" />
       </Head>
       <Theme>
         <Component {...pageProps} />
