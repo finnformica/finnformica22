@@ -4,7 +4,6 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-import { BlogLayout } from "../../layout/BlogLayout";
 import { GridContainer } from "../../components/Projects/ProjectsStyles";
 import PostCard from "../../components/PostCard/PostCard";
 import { sortByDate } from "../../utils";
