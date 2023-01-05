@@ -1,5 +1,3 @@
-import React from "react";
-
 import {
   BlogCard,
   CardInfo,
@@ -10,7 +8,6 @@ import {
   Tag,
   TagList,
   TitleContent,
-  UtilityList,
   Img,
 } from "./ProjectsStyles";
 
@@ -30,7 +27,7 @@ const Projects = () => (
       {projects.map(
         ({ id, image, title, description, tags, source, github }) => (
           <BlogCard key={id}>
-            <Img src={image} />
+            <Img src={image} alt="project card image" />
             <TitleContent>
               <HeaderThree title="true">{title}</HeaderThree>
               <Hr />
