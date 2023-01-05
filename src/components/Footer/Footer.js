@@ -36,16 +36,16 @@ const Footer = ({}) => {
 
           <SocialContainer>
             <SocialIcons target="_blank" href="https://github.com/finnformica">
-              <AiFillGithub size="3rem" />
+              <AiFillGithub size="3rem" alt="link to github" />
             </SocialIcons>
             <SocialIcons
               target="_blank"
               href="https://www.linkedin.com/in/finnformica"
             >
-              <AiFillLinkedin size="3rem" />
+              <AiFillLinkedin size="3rem" alt="link to linkedin" />
             </SocialIcons>
             <SocialIcons target="_blank" href="mailto:hello@finnformica.com">
-              <AiFillMail size="3rem" />
+              <AiFillMail size="3rem" alt="link to mail" />
             </SocialIcons>
           </SocialContainer>
         </SocialIconsContainer>
