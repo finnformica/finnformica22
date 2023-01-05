@@ -47,11 +47,9 @@ const Header = ({ hidden }) => (
           <NavLink href="#about" alt="about">
             About
           </NavLink>
-          <NavLink>
-            <Link href="/blog" alt="blog">
-              Blog
-            </Link>
-          </NavLink>
+          <Link href="/blog" passHref>
+            <NavLink alt="blog">Blog</NavLink>
+          </Link>
         </>
       )}
     </Div2>
