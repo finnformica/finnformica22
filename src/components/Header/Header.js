@@ -40,32 +40,41 @@ const Header = ({ hidden }) => (
     <Div2>
       {!hidden && (
         <>
-          <NavLink href="#projects" alt="projects">
+          <NavLink href="#projects" aria-label="projects">
             Projects
           </NavLink>
 
-          <NavLink href="#about" alt="about">
+          <NavLink href="#about" aria-label="about">
             About
           </NavLink>
           <Link href="/blog" passHref>
-            <NavLink alt="blog">Blog</NavLink>
+            <NavLink aria-label="blog">Blog</NavLink>
           </Link>
         </>
       )}
     </Div2>
 
     <Div3>
-      <SocialIcons target="_blank" href="https://github.com/finnformica">
-        <AiFillGithub size="3rem" alt="link to github" />
+      <SocialIcons
+        target="_blank"
+        href="https://github.com/finnformica"
+        aria-label="link to github"
+      >
+        <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons
         target="_blank"
         href="https://www.linkedin.com/in/finnformica"
+        aria-label="link to linkdin"
       >
-        <AiFillLinkedin size="3rem" alt="link to linkdin" />
+        <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons target="_blank" href="mailto:hello@finnformica.com">
-        <AiFillMail size="3rem" alt="link to mail" />
+      <SocialIcons
+        target="_blank"
+        href="mailto:hello@finnformica.com"
+        aria-label="link to mail"
+      >
+        <AiFillMail size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
