@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BlogLayout } from "../layout/BlogLayout";
+import { Layout } from "../layout/Layout";
 import {
   Section,
   SectionTitle,
@@ -10,7 +10,7 @@ import { ExternalLinks } from "../components/Projects/ProjectsStyles";
 
 const ErrorPage404 = (props) => {
   return (
-    <BlogLayout error={true}>
+    <Layout error={true} hidden={true}>
       <Section style={{ padding: "15%" }}>
         <SectionDivider style={{ marginBottom: "40px" }} />
         <SectionTitle>Not found</SectionTitle>
@@ -21,7 +21,7 @@ const ErrorPage404 = (props) => {
           </ExternalLinks>
         </Link>
       </Section>
-    </BlogLayout>
+    </Layout>
   );
 };
 

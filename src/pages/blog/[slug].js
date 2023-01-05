@@ -11,7 +11,6 @@ import Head from "next/head";
 import hljs from "highlight.js";
 import "highlight.js/styles/monokai.css";
 
-import { BlogLayout } from "../../layout/BlogLayout";
 import { Section, SectionTitle } from "../../styles/GlobalComponents";
 import {
   ExternalLinks,
@@ -20,6 +19,7 @@ import {
   TitleSection,
 } from "../../styles/BlogStyles";
 import { SectionDivider } from "../../styles/GlobalComponents";
+import { Layout } from "../../layout/Layout";
 
 // set options for syntax highlighting
 marked.setOptions({
@@ -53,7 +53,7 @@ const PostPage = ({
         <title>Finn Formica - Blog</title>
       </Head>
 
-      <BlogLayout>
+      <Layout hidden={true}>
         <Section>
           <BlogHeader>
             <Img
@@ -91,7 +91,7 @@ const PostPage = ({
           ></div>
           <SectionDivider style={{ marginTop: "35px" }} />
         </Section>
-      </BlogLayout>
+      </Layout>
     </>
   );
 };

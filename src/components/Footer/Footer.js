@@ -17,19 +17,6 @@ import {
 const Footer = ({ hidden }) => {
   return (
     <FooterWrapper>
-      {/* <LinkList>
-        <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:111-111-1111">111-111-1111</LinkItem>
-        </LinkColumn>
-
-        <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:hello@finnformica.com">
-            hello@finnformica.com
-          </LinkItem>
-        </LinkColumn>
-      </LinkList> */}
       {!hidden && (
         <LinkColumn>
           <LinkItem href="#top">Back to top</LinkItem>
@@ -51,16 +38,16 @@ const Footer = ({ hidden }) => {
 
           <SocialContainer>
             <SocialIcons target="_blank" href="https://github.com/finnformica">
-              <AiFillGithub size="3rem" />
+              <AiFillGithub size="3rem" alt="link to github" />
             </SocialIcons>
             <SocialIcons
               target="_blank"
               href="https://www.linkedin.com/in/finnformica"
             >
-              <AiFillLinkedin size="3rem" />
+              <AiFillLinkedin size="3rem" alt="link to linkedin" />
             </SocialIcons>
             <SocialIcons target="_blank" href="mailto:hello@finnformica.com">
-              <AiFillMail size="3rem" />
+              <AiFillMail size="3rem" alt="link to mail" />
             </SocialIcons>
           </SocialContainer>
         </SocialIconsContainer>

@@ -14,6 +14,7 @@ import {
   SectionTitle,
   SectionText,
 } from "../../styles/GlobalComponents";
+import { Layout } from "../../layout/Layout";
 
 const Blog = ({ posts }) => {
   return (
@@ -29,7 +30,7 @@ const Blog = ({ posts }) => {
           content="Hi, I am an aspiring software engineer and data science masters student - welcome to my personal blog!"
         />
       </Head>
-      <BlogLayout>
+      <Layout hidden={true}>
         <Section id="posts" style={{ paddingBottom: "15px" }}>
           <SectionTitle>Blog</SectionTitle>
           <SectionText>
@@ -43,7 +44,7 @@ const Blog = ({ posts }) => {
             ))}
           </GridContainer>
         </Section>
-      </BlogLayout>
+      </Layout>
     </>
   );
 };
