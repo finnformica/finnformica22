@@ -32,7 +32,7 @@ const Footer = ({ hidden }) => {
         <SocialIconsContainer>
           <CompanyContainer>
             <Slogan>
-              © 2022 - Web app coded by Finn Formica using React + Next.js
+              © 2023 - Web app coded by Finn Formica using React + Next.js
             </Slogan>
           </CompanyContainer>
 
