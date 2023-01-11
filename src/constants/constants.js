@@ -13,7 +13,7 @@ export const projects = [
   {
     title: "Facial Expression Recognition",
     description:
-      "After completing the fast.ai course an image classifier was trained using facial expression data from kaggle. This was then used in conjunction with OpenCV to provide real-time predictions from a live video stream.",
+      "After completing the fast.ai course I trained an image classifier using facial expression data from kaggle. This was then used in conjunction with OpenCV to provide real-time predictions from a live video stream.",
     image: "/images/projects/facial-expression-happy.png",
     tags: ["fast.ai", "OpenCV", "Python"],
     github: "https://github.com/finnformica/video-facial-recognition",
