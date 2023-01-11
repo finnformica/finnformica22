@@ -30,7 +30,7 @@ const Technologies = () => (
           <ListContainer>
             <ListTitle>{item.title}</ListTitle>
             <ListParagraph>
-              Experience with <br />
+              {/* Experience with <br /> */}
               {item.technology}
             </ListParagraph>
           </ListContainer>
