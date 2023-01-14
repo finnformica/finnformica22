@@ -3,13 +3,15 @@ import { SiSolidity, SiFlask } from "react-icons/si";
 
 export const projects = [
   {
-    title: "Asteroids with NEAT",
+    title: "Financial Dashboard",
     description:
-      "This was completed for my first year engineering coursework. I recreated the arcade game Asteroids using pygame, and then implemented the NEAT algorithm to train Neural Networks to play it.",
-    image: "/images/projects/asteroids-neat.png",
-    tags: ["ML", "Python"],
-    github: "https://github.com/finnformica/Asteroids-with-NEAT-python",
+      "A design taken from the Figma community and implemented into code. This project was used to help me gain a deeper understanding about complex CSS properties like Grid as well as features like state persistance with React hooks.",
+    image: "/images/projects/financial-dashboard-img.png",
+    tags: ["React", "Next.js", "Material-UI"],
+    github: "https://github.com/finnformica/financial-dashboard",
+    source: "https://financial-dashboard-finnformica.vercel.app/",
   },
+
   {
     title: "Facial Expression Recognition",
     description:
@@ -17,6 +19,14 @@ export const projects = [
     image: "/images/projects/facial-expression-happy.png",
     tags: ["fast.ai", "OpenCV", "Python"],
     github: "https://github.com/finnformica/video-facial-recognition",
+  },
+  {
+    title: "Asteroids with NEAT",
+    description:
+      "I recreated the arcade game Asteroids using pygame and then used Reinforcement Learning to train Neural Networks to play it. The NNs were generated and evolved according to the NEAT algorithm.",
+    image: "/images/projects/asteroids-neat.png",
+    tags: ["pygame", "RL"],
+    github: "https://github.com/finnformica/Asteroids-with-NEAT-python",
   },
   {
     title: "Analysis of Zero-Intelligence Traders",
