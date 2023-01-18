@@ -29,6 +29,16 @@ export const projects = [
     github: "https://github.com/finnformica/Asteroids-with-NEAT-python",
   },
   {
+    title: "Design Portfolio Mockup",
+    description:
+      "A commissioned portfolio project for designer wanting a simple platform to showcase some of their work. I decided to use Tailwind to reduce the number of files created and use of inline styles.",
+    image: "/images/projects/lunaocean-img.png",
+    tags: ["React", "Next.js", "Tailwind CSS"],
+    github: "https://github.com/finnformica/lunaocean",
+    source: "https://lunaocean.vercel.app",
+  },
+
+  {
     title: "Analysis of Zero-Intelligence Traders",
     description:
       "Using the Bristol Stock Exchange simulation, I ran analysis on five automated trading agents to compare their performance and determine the most profitable trader. The experiments were run in Python and the analysis and visualisation in R.",
@@ -55,24 +65,6 @@ export const projects = [
     github: "https://github.com/finnformica/algo-api-charts",
     source: "https://algo-api.up.railway.app/docs",
   },
-  // {
-  //   title: "Flask Website",
-  //   description:
-  //     "My first personal website to explore web development and hosting a website with a custom domain name. I found the overall response time of the site very slow and the project difficult to add to and maintain.",
-  //   image: "/images/projects/flask-website.png",
-  //   tags: ["Flask / Python", "Bootstrap", "Heroku"],
-  //   source: "https://finnformica22.up.railway.app/",
-  //   github: "https://github.com/finnformica/personal-website-2022-flask",
-  // },
-  // {
-  //   title: "",
-  //   description:
-  //     "",
-  //   image: "/images/REPLACE.png",
-  //   tags: ["", ""],
-  //   source: "",
-  //   github: "",
-  // },
 ];
 
 export const TimeLineData = [
