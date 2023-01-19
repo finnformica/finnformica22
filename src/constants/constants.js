@@ -31,7 +31,7 @@ export const projects = [
   {
     title: "Design Portfolio Mockup",
     description:
-      "A commissioned portfolio project for designer wanting a simple platform to showcase some of their work. I decided to use Tailwind to reduce the number of files created and use of inline styles.",
+      "A commissioned portfolio project for designer wanting a simple platform to showcase some of their work. I wanted to focus on improving the UX by applying transitions to content changes on the website.",
     image: "/images/projects/lunaocean-img.png",
     tags: ["React", "Next.js", "Tailwind CSS"],
     github: "https://github.com/finnformica/lunaocean",
