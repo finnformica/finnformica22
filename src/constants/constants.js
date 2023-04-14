@@ -1,5 +1,5 @@
 import { DiFirebase, DiReact, DiPython, DiScrum } from "react-icons/di";
-import { SiSolidity, SiFlask } from "react-icons/si";
+import { SiSolidity, SiNodedotjs } from "react-icons/si";
 
 export const projects = [
   {
@@ -82,32 +82,32 @@ export const TimeLineData = [
 export const TechnologiesData = [
   {
     title: "Front-End",
-    technology: "React and Next.js",
+    technology: "Next.js and MUI",
     icon: <DiReact size="3rem" />,
   },
   {
     title: "Back-End",
     technology: "Node.js and Flask",
-    icon: <SiFlask size="3rem" />,
+    icon: <SiNodedotjs size="3rem" />,
   },
   {
     title: "AI / ML",
-    technology: "Sklearn and fast.ai",
+    technology: "Sklearn, fast.ai, pytorch",
     icon: <DiPython size="3rem" />,
   },
   {
     title: "Databases",
-    technology: "Snowflake and MongoDB",
+    technology: "SQL and MongoDB",
     icon: <DiFirebase size="3rem" />,
   },
   {
     title: "Blockchain",
-    technology: "Solidity",
+    technology: "Solidity and Ganache",
     icon: <SiSolidity size="3rem" />,
   },
   {
-    title: "Agile",
-    technology: "Scrum and Azure DevOps",
+    title: "DevOps",
+    technology: "Scrum, Docker, Airflow",
     icon: <DiScrum size="3rem" />,
   },
 ];
