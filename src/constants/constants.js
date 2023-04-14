@@ -1,5 +1,5 @@
 import { DiFirebase, DiReact, DiPython, DiScrum } from "react-icons/di";
-import { SiSolidity, SiFlask, SiNodedotjs } from "react-icons/si";
+import { SiSolidity, SiNodedotjs } from "react-icons/si";
 
 export const projects = [
   {
