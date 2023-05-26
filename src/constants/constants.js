@@ -3,15 +3,14 @@ import { SiSolidity, SiNodedotjs } from "react-icons/si";
 
 export const projects = [
   {
-    title: "Financial Dashboard",
+    title: "BlockChange",
     description:
-      "A design taken from the Figma community and implemented into code. This project was used to help me gain a deeper understanding about complex CSS properties like Grid as well as features like state persistance with React hooks.",
-    image: "/images/projects/financial-dashboard-img.png",
-    tags: ["React", "Next.js", "Material-UI"],
-    github: "https://github.com/finnformica/financial-dashboard",
-    source: "https://financial-dashboard-finnformica.vercel.app/",
+      "A distributed crowdfunding platform built for humanitarian crises. The platform allows users to create and fund projects using the Ethereum blockchain. The project was built with 3 other students as part of a group coursework and is currently deployed to the Sepolia testnet.",
+    image: "/images/projects/blockchange-img.png",
+    tags: ["React", "Next.js", "Solidity"],
+    github: "https://github.com/finnformica/blockchange-frontend",
+    source: "https://blockchange.vercel.app/",
   },
-
   {
     title: "Facial Expression Recognition",
     description:
@@ -38,13 +37,13 @@ export const projects = [
     source: "https://lunaocean.vercel.app",
   },
   {
-    title: "BlockChange",
+    title: "Financial Dashboard",
     description:
-      "A distributed crowdfunding platform built for humanitarian crises. The platform allows users to create and fund projects using the Ethereum blockchain. The project was built with 3 other students as part of a group coursework and is currently deployed to the Sepolia testnet.",
-    image: "/images/projects/blockchange-img.png",
-    tags: ["React", "Next.js", "Solidity"],
-    github: "https://github.com/finnformica/blockchange-frontend",
-    source: "https://blockchange.vercel.app/",
+      "A design taken from the Figma community and implemented into code. This project was used to help me gain a deeper understanding about complex CSS properties like Grid as well as features like state persistance with React hooks.",
+    image: "/images/projects/financial-dashboard-img.png",
+    tags: ["React", "Next.js", "Material-UI"],
+    github: "https://github.com/finnformica/financial-dashboard",
+    source: "https://financial-dashboard-finnformica.vercel.app/",
   },
   {
     title: "Image to Matrix",
