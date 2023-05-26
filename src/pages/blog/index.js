@@ -33,9 +33,9 @@ const Blog = ({ posts }) => {
         <Section id="posts" style={{ paddingBottom: "15px" }}>
           <SectionTitle>Blog</SectionTitle>
           <SectionText>
-            Whilst working on software projects I have stumbled across topics
-            that may be useful or interesting to others. I have written these
-            posts as a high-level way of documenting my thoughts.
+            Whilst working on projects I have often wanted to make a log of some
+            my experiences as I journey through the software space. This blog is
+            my attempt at documenting my thoughts and experiences.
           </SectionText>
           <GridContainer>
             {posts.map((post, index) => (
