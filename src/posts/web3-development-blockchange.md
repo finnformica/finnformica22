@@ -1,6 +1,6 @@
 ---
 title: "Web3 Development - BlockChange"
-date: "May 26, 2023"
+date: "May 27, 2023"
 excerpt: "Building and deploying my first full-stack web3 application to the Sepolia testnet (Ethereum). Blockchange is a distributed crowdfunding platform for humanitarian causes."
 cover_image: "/images/projects/blockchange-img.png"
 ---
@@ -22,3 +22,16 @@ We decided to use React + Next.js for the front-end, Solidity for the back-end s
 ## DevOps
 
 We used Github for version control and kept the main branch only for production code. The Scrum methodology was used for project management as well as Jira for task tracking. The Jira board was the most effective tool that we implemented allowing us to stay on track and meet our deadline with ease. This was my first time working in a team on an agile project and I found it to be a very effective way of working.
+
+<br/>
+
+## Struggles
+
+The biggest struggle I faced was fetching data from the blockchain on the server using `getStaticProps()`. I wanted to allow pages to be pre-rendered at build time, but I couldn't figure out how to provide an available account to the server. I ended up fetching the data on the client-side using their Metamask account but it was a little inefficient. This also meant I couldn't use `getStaticPaths()` to generate dynamic routes and navigate to an error page if the data was not found. Instead this again had to be handled on the client-side which is poor for SEO.
+
+<br/>
+
+## Conclusion
+
+
+I had a lot of fun working on this project and I'm proud of what my team and I were able to achieve in such a short amount of time. I learnt a lot about the blockchain and the development process of a decentralised application and I'm excited to apply this knowledge to my dissertation in the coming months. I have an idea to create a privacy layer around ChatGPT to allow users to anonymously interact with the API without fears of their data being collected and profiled - we'll see if the uni let me!
